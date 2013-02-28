@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Animation Basic</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css" media="all"/>
+    <script src="js/animation.js"></script>
+</head>
+<body>
+	<div id="css-demo">
+    <div class="buttons">
+        <label for="speed">Speed</label>
+        <input name="speed" id="speed-input" type="number" value="200"> px/sec</input>
+        <button onclick="APP.play();">Play</button>
+        <button onclick="APP.pause();">Pause</button>
+        <span class="framerate"><span id="framerate">0</span> fps</span>
+    </div>
+    <div id="css-bullet"></div>
+    <div id="css-cannon"></div>
+</div>
+</body>
+</html>
